@@ -1,0 +1,18 @@
+{
+  "clock": {
+    "timezone": "Europe/Madrid",
+    "tooltip-format": "<tt>{calendar}</tt>",
+    "format": "{:%H:%M | %d %B %Y}",
+    "calendar": {
+      "mode": "year",
+      "mode-mon-col": 3,
+      "on-scroll": 1,
+      "format": {
+        "months": "<span color='{{colors.primary.default.hex}}'><b>{}</b></span>",
+        "days": "<span color='{{colors.secondary.default.hex}}'><b>{}</b></span>",
+        "weekdays": "<span color='{{colors.tertiary.default.hex}}'><b>{}</b></span>",
+        "today": "<span color='{{colors.on_surface.default.hex}}'><b><u>{}</u></b></span>"
+      }
+    }
+  }
+}
