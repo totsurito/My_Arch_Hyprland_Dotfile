@@ -6,6 +6,7 @@ My personal Arch Linux + Hyprland configuration, with dynamic theming based on t
 
 - **Arch Linux** (or Arch-based distro)
 - **Internet connection** (to install packages)
+- **git** (`sudo pacman -S git`)
 
 *Note: All other dependencies (Hyprland, UWSM, Waybar, etc.) are installed automatically by the `install.sh` script.*
 
