@@ -232,7 +232,7 @@ mkdir -p "$HOME/Pictures/WallpaperPC"
 # === Copy default wallpaper ===
 DEFAULT_WALLPAPER="$HOME/Pictures/WallpaperPC/default.jpg"
 
-if [[ -f "wallpapers/default.jpg"]]; then
+if [[ -f "wallpapers/default.jpg" ]]; then
     cp "wallpapers/default.jpg" "$DEFAULT_WALLPAPER"
     echo -e "${GREEN}Default wallpaper copied.${NC}"
 else
