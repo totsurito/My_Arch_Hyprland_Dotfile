@@ -7,6 +7,7 @@ hl.on("hyprland.start", function()
   hl.exec_cmd("uwsm app -- wl-paste --type image --watch cliphist store")
   hl.exec_cmd("uwsm app -- hypridle")
   hl.exec_cmd("uwsm app -- awww-daemon")
+  hl.exec_cmd("uwsm app -- skwd-daemon")
   hl.exec_cmd("uwsm app -- " .. vars.terminal)
   hl.exec_cmd("~/.mpd/autostart.sh")
 
