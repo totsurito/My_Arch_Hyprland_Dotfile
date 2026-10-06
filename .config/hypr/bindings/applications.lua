@@ -1,8 +1,7 @@
 local vars = require("hypr.vars")
 local home = os.getenv("HOME")
 
-hl.bind("SUPER + CTRL + W",  hl.dsp.exec_cmd("skwd wall toggle"),                               { description = "Wallpaper Picker" })
-
+hl.bind("SUPER + CTRL + W",  hl.dsp.exec_cmd("skwd wall toggle"),                     { description = "Wallpaper Picker" })
 hl.bind("SUPER + T", hl.dsp.exec_cmd(vars.terminal),                                  { description = "Terminal" })
 hl.bind("SUPER + B", hl.dsp.exec_cmd(vars.browser),                                   { description = "Browser (Zen Browser)" })
 hl.bind("SUPER + SHIFT + B", hl.dsp.exec_cmd(vars.secondBrowser),                     { description = "Browser (Brave Origin)" })
