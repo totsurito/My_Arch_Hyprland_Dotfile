@@ -5,7 +5,6 @@ hl.bind("SUPER + X",           hl.dsp.exec_cmd(home .. "/.local/bin/hypr-logout"
 hl.bind("SUPER + SHIFT + L",   hl.dsp.exec_cmd("hyprlock"),                                                          { description = "Lock Screen" })
 hl.bind("SUPER + ESCAPE",      hl.dsp.exec_cmd(vars.powermenu),                                                      { description = "Power Menu" })
 hl.bind("CTRL + ESCAPE",       hl.dsp.exec_cmd("sh -c 'killall waybar || uwsm app -- waybar'"),                      { description = "Toggle Waybar" })
-hl.bind("SUPER + SHIFT + V",   hl.dsp.exec_cmd(home .. "/.local/bin/monitor-mirror-toggle"),                      { description = "Toggle Monitor Mirror" })
 hl.bind("SUPER + N",           hl.dsp.exec_cmd(home .. "/.local/bin/toggle-nightlight"),                          { description = "Toggle Nightlight" })
 hl.bind("SUPER + SHIFT + I",   hl.dsp.exec_cmd(home .. "/.local/bin/toggle-idle"),                                { description = "Toggle Idle Prevention" })
 hl.bind("SUPER + D",           hl.dsp.exec_cmd(home .. "/.local/bin/notification-toggle"),                        { description = "Dismiss Notifications" })
