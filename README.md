@@ -26,10 +26,11 @@ My personal Arch Linux + Hyprland configuration, with dynamic theming based on t
 
 ### Automatic (recommended)
 
-```bash
-git clone https://github.com/TotsuRito/My_Hyprland_Dotfile.git ~/dotfiles
+```
+git clone https://github.com/TotsuRito/My_Arch_Hyprland_Dotfile.git ~/dotfiles
 cd ~/dotfiles
-./install.sh
+chmod +x install
+./install
 ```
 
 The installer will:
@@ -46,16 +47,16 @@ The installer will:
 ### Manual
 
 1. Clone the repository:
-```bash
-git clone https://github.com/TotsuRito/My_Hyprland_Dotfile.git ~/dotfiles
+```
+git clone https://github.com/TotsuRito/My_Arch_Hyprland_Dotfile.git ~/dotfiles
 ```
 2. Copy the configs:
-```bash
+```
 cp -r ~/dotfiles/.config/* ~/.config/
 cp -r ~/dotfiles/.local/bin/* ~/.local/bin/
 ```
 3. Give execute permissions to scripts:
-```bash
+```
 chmod +x ~/.local/bin/*
 ```
 4.Restart Hyprland or your computer.
