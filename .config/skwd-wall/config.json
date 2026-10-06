@@ -85,6 +85,12 @@
       "reload": "pkill waybar && uwsm app -- waybar"
     },
     {
+      "name": "waybar-clock",
+      "template": "theme-clock.jsonc",
+      "output": "~/.config/waybar/theme-clock.jsonc",
+      "reload": "pkill waybar && uwsm app -- waybar"
+    },
+    {
       "name": "rofi",
       "template": "rofi-colors.rasi",
       "output": "~/.config/rofi/rofi-colors.rasi"
