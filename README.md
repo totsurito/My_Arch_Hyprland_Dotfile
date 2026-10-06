@@ -27,7 +27,7 @@ My personal Arch Linux + Hyprland configuration, with dynamic theming based on t
 ### Automatic (recommended)
 
 ```
-git clone https://github.com/TotsuRito/My_Arch_Hyprland_Dotfile.git ~/dotfiles
+git clone https://github.com/totsurito/totsu-hyprdots.git ~/dotfiles
 cd ~/dotfiles
 chmod +x install
 ./install
@@ -48,7 +48,7 @@ The installer will:
 
 1. Clone the repository:
 ```
-git clone https://github.com/TotsuRito/My_Arch_Hyprland_Dotfile.git ~/dotfiles
+git clone https://github.com/totsurito/totsu-hyprdots.git ~/dotfiles
 ```
 2. Copy the configs:
 ```
