@@ -71,6 +71,11 @@ PACMAN_PKGS=(
     # Laucher
     rofi
 
+    # Music
+    mpd
+    mpc
+    ncmpcpp
+
     # Utilities
     fastfetch
     btop
@@ -102,6 +107,7 @@ PACMAN_PKGS=(
     git
     sddm
     qt6-tools
+    nano
 
     # Python and dependencies for scripts
     python
@@ -181,7 +187,7 @@ echo -e "${NC}"
 BACKUP_DIR="$HOME/.config-backup-$(date +%Y%m%d-%H%M%S)"
 mkdir -p "$BACKUP_DIR"
 
-for dir in dunst fastfetch hypr kitty rofi skwd-wall waybar; do
+for dir in dunst fastfetch hypr kitty mpd rofi skwd-wall waybar; do
     if [[ -d "$HOME/.config/$dir" ]]; then
         echo -e "${YELLOW}Backing up ~/.config/$dir -> $BACKUP_DIR/$dir${NC}"
         cp -r "$HOME/.config/$dir" "$BACKUP_DIR/$dir"
