@@ -108,6 +108,7 @@ PACMAN_PKGS=(
     sddm
     qt6-tools
     nano
+    nautilus
 
     # Python and dependencies for scripts
     python
