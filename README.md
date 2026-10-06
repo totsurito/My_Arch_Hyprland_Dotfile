@@ -20,7 +20,7 @@ My personal Arch Linux + Hyprland configuration, with dynamic theming based on t
 | `rofi` | Application launcher and menus |
 | `dunst` | Notification daemon |
 | `fastfetch` | System info tool |
-| `btop` | System monitor |
+| `mpd` | Music Player daemon |
 | `skwd-wall` | Dynamic wallpaper manager with Matugen |
 
 ## Installation
